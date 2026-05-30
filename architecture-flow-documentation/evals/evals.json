@@ -1,0 +1,29 @@
+{
+  "skill_name": "architecture-flow-documentation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Review docs/architecture/ in this repo and create a new docs/architecture/deployment-flow.md plus docs/architecture/deployment-flow.html for the Azure DevOps to GKE deployment workflow. Match the existing look and feel, keep the HTML standalone, and include static plus animated modes.",
+      "expected_output": "A paired Markdown and self-contained HTML architecture document with sidebar steps, Canvas static overview, animated flow controls, and a technical sequence view.",
+      "files": [
+        "docs/architecture/flow.html",
+        "docs/architecture/flow.md"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Generate an interactive architecture HTML page for a semantic router pipeline with offline indexing and runtime routing phases. It should be usable by opening the file directly, without npm, Tailwind, Font Awesome, Mermaid CDN, or GSAP.",
+      "expected_output": "A single HTML file with inline CSS/JS, no required external dependencies, phase-aware sidebar, Canvas diagram, animated route playback, and a copyable technical diagram/source view.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Update the architecture docs after adding a new Context Injector component between the agent and Neo4j. Keep the Markdown and HTML synchronized and make sure every animated step references a valid node id.",
+      "expected_output": "Updated Markdown and HTML docs where the new component appears in the static diagram, sequence steps, sidebar, and technical view with no broken node references.",
+      "files": [
+        "docs/architecture/semantic-router.html",
+        "docs/architecture/semantic-router.md"
+      ]
+    }
+  ]
+}
